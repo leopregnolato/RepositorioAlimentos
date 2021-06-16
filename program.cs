@@ -5,7 +5,7 @@ namespace RepositorioAlimentos
     class Program
     {
         static AlimentoRepositorio repositorio = new AlimentoRepositorio();
-        static void Main(string Args[])
+        static void Main(string[] args)
         {
             string opcaoUsuario = ObterOpcaoUsuario();
 

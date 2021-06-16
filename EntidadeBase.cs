@@ -1,3 +1,5 @@
+using System;
+
 namespace RepositorioAlimentos
 {
     public abstract class EntidadeBase

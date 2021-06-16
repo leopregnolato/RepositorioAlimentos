@@ -1,3 +1,5 @@
+using System;
+
 namespace RepositorioAlimentos
 {
     public interface IRepositorio<A>
