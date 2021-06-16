@@ -1,10 +1,24 @@
-using System;
-
 namespace RepositorioAlimentos
 {
     public class Alimentos : EntidadeBase
     {
-        private string Descricao { get; set; }  
+        public Alimentos(string descricao, string fabricacao, string validade, bool excluido)
+        {
+            this.Descricao = descricao;
+            this.Fabricacao = fabricacao;
+            this.Validade = validade;
+            this.Excluido = excluido;
+
+        }
+        public Alimentos(string descricao, string fabricacao, string validade, bool excluido)
+        {
+            this.Descricao = descricao;
+            this.Fabricacao = fabricacao;
+            this.Validade = validade;
+            this.Excluido = excluido;
+
+        }
+        private string Descricao { get; set; }
         private string Fabricacao { get; set; }
         private string Validade { get; set; }
         private bool Excluido { get; set; }
@@ -27,22 +41,23 @@ namespace RepositorioAlimentos
             retorno += "Descrição: " + this.Fabricacao + Environment.NewLine;
             retorno += "Ano de Início: " + this.Validade + Environment.NewLine;
             retorno += "Excluido: " + this.Excluido;
-			return retorno;
+            return retorno;
         }
 
         public string retornaMarca()
         {
             return this.Marca;
-        }        
+        }
         public int retornaId()
         {
             return this.Id;
         }
         public bool retornaExcluido()
-		{
-			return this.Excluido;
-		}
-        public void Excluir() {
+        {
+            return this.Excluido;
+        }
+        public void Excluir()
+        {
             this.Excluido = true;
         }
 
