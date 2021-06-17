@@ -1,0 +1,13 @@
+/home/leonardo/workspace/RepositorioAlimentos/obj/Debug/netcoreapp3.1/RepositorioAlimentos.csprojAssemblyReference.cache
+/home/leonardo/workspace/RepositorioAlimentos/obj/Debug/netcoreapp3.1/RepositorioAlimentos.AssemblyInfoInputs.cache
+/home/leonardo/workspace/RepositorioAlimentos/obj/Debug/netcoreapp3.1/RepositorioAlimentos.AssemblyInfo.cs
+/home/leonardo/workspace/RepositorioAlimentos/obj/Debug/netcoreapp3.1/RepositorioAlimentos.csproj.CoreCompileInputs.cache
+/home/leonardo/workspace/RepositorioAlimentos/bin/Debug/netcoreapp3.1/RepositorioAlimentos
+/home/leonardo/workspace/RepositorioAlimentos/bin/Debug/netcoreapp3.1/RepositorioAlimentos.deps.json
+/home/leonardo/workspace/RepositorioAlimentos/bin/Debug/netcoreapp3.1/RepositorioAlimentos.runtimeconfig.json
+/home/leonardo/workspace/RepositorioAlimentos/bin/Debug/netcoreapp3.1/RepositorioAlimentos.runtimeconfig.dev.json
+/home/leonardo/workspace/RepositorioAlimentos/bin/Debug/netcoreapp3.1/RepositorioAlimentos.dll
+/home/leonardo/workspace/RepositorioAlimentos/bin/Debug/netcoreapp3.1/RepositorioAlimentos.pdb
+/home/leonardo/workspace/RepositorioAlimentos/obj/Debug/netcoreapp3.1/RepositorioAlimentos.dll
+/home/leonardo/workspace/RepositorioAlimentos/obj/Debug/netcoreapp3.1/RepositorioAlimentos.pdb
+/home/leonardo/workspace/RepositorioAlimentos/obj/Debug/netcoreapp3.1/RepositorioAlimentos.genruntimeconfig.cache

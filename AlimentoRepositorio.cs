@@ -1,33 +1,41 @@
-using System;
+using System.Collections.Generic;
 
-namespace RepositorioAlimentos{
-    
-    public class AlimentoRepositorio : IRepositorio<Alimento>
+namespace RepositorioAlimentos
+{
+
+    public class AlimentoRepositorio : IRepositorio<Alimentos>
     {
-        private List<Alimento> listaAlimentos = new List<Alimento>();
-        public void Atualiza(int id, Alimento objeto)
+    private List<Alimentos> listaAlimentos = new List<Alimentos>();
+        public void Atualiza(int id, Alimentos objeto)
         {
             listaAlimentos[id] = objeto;
         }
 
         public void Exclui(int id)
         {
-            listaAlimentos[id].Exclui();
+            listaAlimentos[id].Excluir();
         }
 
-        public void Insere(Alimento objeto)
+        public List<Alimentos> GetLista()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Insere(Alimentos objeto)
         {
             listaAlimentos.Add(objeto);
         }
 
-        public List<Alimento> Lista => listaAlimentos;
-
+        public List<Alimentos> Lista()
+        {
+            return listaAlimentos;
+        }
         public int ProximoId()
         {
             return listaAlimentos.Count;
         }
 
-        public Alimento RetornaPorId()
+        public Alimentos RetornaPorId(int id)
         {
             return listaAlimentos[id];
         }
